@@ -1,0 +1,40 @@
+﻿@page "/"
+@attribute [Authorize]
+@inject IUserService UserService
+
+<div class="card mt-4">
+    <h4 class="card-header">ATTENDANCE MARKING:</h4>
+    <div class="card-body">
+        <p>Click on IN-TIME button to log your in timings once you are available at store,</p>
+        <p>Click on OUT-TIME button from store when you are leaving from store. </p>
+        <p>Your location is gps is tracked, hence you cannot log your time if you are outside the store.</p>
+        
+        <button class="btn btn-primary" style="width:100px;">
+            @if (loading)
+            {
+                <span class="spinner-border spinner-border-sm mr-1"></span>
+            }
+            IN-TIME test
+        </button> 
+        <br /><br />
+        <button class="btn btn-primary" style="width:100px;">
+            @if (loading)
+            {
+                <span class="spinner-border spinner-border-sm mr-1"></span>
+            }
+            OUT-TIME
+        </button>
+    </div>
+</div>
+
+@code {
+    private bool loading;
+    private IEnumerable<User> users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        loading = true;
+        users = await UserService.GetAll();
+        loading = false;
+    }
+}
