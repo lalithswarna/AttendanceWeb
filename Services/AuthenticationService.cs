@@ -1,8 +1,8 @@
-using BlazorApp.Models;
+using AttendanceWeb.Models;
 using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
 
-namespace BlazorApp.Services
+namespace AttendanceWeb.Services
 {
     public interface IAuthenticationService
     {

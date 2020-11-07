@@ -2,7 +2,7 @@ using Microsoft.JSInterop;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace BlazorApp.Services
+namespace AttendanceWeb.Services
 {
     public interface ILocalStorageService
     {

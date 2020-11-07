@@ -1,11 +1,11 @@
-using BlazorApp.Services;
+using AttendanceWeb.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 using System;
 using System.Net;
 
-namespace BlazorApp.Helpers
+namespace AttendanceWeb.Helpers
 {
     public class AppRouteView : RouteView
     {

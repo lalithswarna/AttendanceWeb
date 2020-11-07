@@ -1,4 +1,4 @@
-namespace BlazorApp.Models
+namespace AttendanceWeb.Models
 {
     public class User
     {

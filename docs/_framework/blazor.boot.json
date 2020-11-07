@@ -4,11 +4,11 @@
     "appsettings.json"
   ],
   "debugBuild": false,
-  "entryAssembly": "BlazorApp",
+  "entryAssembly": "AttendanceWeb",
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorApp.dll": "sha256-RgdfkK+nXhr5EcFiUebqWZt2vWMppTQ6dgQ\/kDsLhvE=",
+      "AttendanceWeb.dll": "sha256-RgdfkK+nXhr5EcFiUebqWZt2vWMppTQ6dgQ\/kDsLhvE=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-BLHzfPVbzdiaJ2YEfYeitgPrfKjxDFlcPnecBRi3INo=",
       "Microsoft.AspNetCore.Components.dll": "sha256-BhamLqG997fxD4Tbab2fIWMRf\/W2b41o382f1vtFkJE=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-342eGi55Ydojdt3bm5xnhgMcbCkrhLRS5OjBjclggHk=",

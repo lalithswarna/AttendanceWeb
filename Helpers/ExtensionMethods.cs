@@ -3,7 +3,7 @@ using System;
 using System.Collections.Specialized;
 using System.Web;
 
-namespace BlazorApp.Helpers
+namespace AttendanceWeb.Helpers
 {
     public static class ExtensionMethods
     {

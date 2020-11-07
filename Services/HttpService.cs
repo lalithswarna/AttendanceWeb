@@ -1,4 +1,4 @@
-using BlazorApp.Models;
+using AttendanceWeb.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace BlazorApp.Services
+namespace AttendanceWeb.Services
 {
     public interface IHttpService
     {

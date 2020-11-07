@@ -7,7 +7,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorApp.Helpers
+namespace AttendanceWeb.Helpers
 {
     public class FakeBackendHandler : HttpClientHandler
     {
